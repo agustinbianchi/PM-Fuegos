@@ -406,15 +406,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding: 0; */
 }
-#hero:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
+
 #hero .container {
   padding-top: 110px;
 }
@@ -832,6 +824,11 @@ section {
   justify-content: center;
   padding-top: 0;
 }
+}
+.icon-redes {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
 }
 /*--------------------------------------------------------------
 # Contact
