@@ -444,7 +444,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  font-family: "GOTHAM-BOLD", sans-serif;
+  font-family: "GOTHAM-BOLD";
 }
 #hero h1 span {
   color: #DA6900;
@@ -617,7 +617,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: white;
-  font-family: "GOTHAM-BOLD", sans-serif;
+  font-family: "GOTHAM-BOLD";
   border-bottom: solid #DA6900 3.5px;
   display: inline-block;
 }
@@ -850,7 +850,7 @@ section {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 5px;
-  font-family: "GOTHAM-BOLD", sans-serif;
+  font-family: "GOTHAM-BOLD";
 }
 .contact .info p {
   padding: 0 0 0 60px;
@@ -982,7 +982,7 @@ section {
   line-height: 1;
   font-weight: 300;
   text-transform: uppercase;
-  font-family: "GOTHAM-BOLD", sans-serif;
+  font-family: "GOTHAM-BOLD";
 }
 #footer .footer-top .footer-info p {
   font-size: 14px;
