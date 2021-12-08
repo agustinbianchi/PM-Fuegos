@@ -782,6 +782,87 @@ section {
     width: 100%;
   }
 }
+
+.card-detalle {
+  display: none;
+}
+.btn-mas {
+  background-color: rgba(255, 255, 255, 0.356) ;
+  color: white;
+  font-weight: bold;
+  border: solid #DA6900 2px;
+  border-radius: 10px;
+  display: inline-block;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+/*--------------------------------------------------------------
+# DETALLE PRODUCTOS
+--------------------------------------------------------------*/
+.container-detalle-prod {
+  padding-right: 200px;
+  padding-left: 200px;
+}
+.detalle-producto {
+padding-top: 150px;
+}
+.img-detalle-prod {
+  width: 180px;
+  height: auto;
+}
+.la-bestia {
+  background: url("../img/fondoprod/web_fondo_bestia.png") center center;
+  background-size: cover;
+  position: relative;
+}
+.horno {
+  background: url("../img/fondoprod/web_fondo_horno copia.png") center center;
+  background-size: cover;
+  position: relative;
+}
+.jaula {
+  background: url("../img/fondoprod/web_fondo_jaula.png") center center;
+  background-size: cover;
+  position: relative;
+}
+.ovalada {
+  background: url("../img/prod/web_ovalada 3.png") center center;
+  background-size: cover;
+  position: relative;
+}
+.ovalada::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.redonda {
+  background: url("../img/fondoprod/web_fondo_redonda.png") center center;
+  background-size: cover;
+  position: relative;
+}
+@media (max-width: 948px) {
+  .container-detalle-prod {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .col-img-detalle {
+    text-align: center;
+  }
+  .col-texto-detalle {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 500px){
+  .img-detalle-prod {
+    width: 120px;
+  }
+}
 /*--------------------------------------------------------------
 # BANNER REDES
 --------------------------------------------------------------*/
