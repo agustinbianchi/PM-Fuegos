@@ -79,18 +79,18 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  left: 15px;
   bottom: 15px;
   z-index: 996;
   width: 44px;
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
-  border: 2px solid #DA6900;
+  border: 2px solid white;
 }
 .back-to-top i {
   font-size: 28px;
-  color: #DA6900;
+  color: white;
   line-height: 0;
 }
 .back-to-top:hover {
@@ -424,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 20;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  /*background: rgba(0, 0, 0, 0.5);*/
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
@@ -679,7 +679,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/web_fondo_nosotros.png") center center;
+  background: url("../img/nosotros.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -756,16 +756,27 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+
+.video-nos{
+  position: relative;
+  bottom: 100px;
+}
 @media (min-width: 1024px) {
   .about {
     background-attachment: fixed;
+  }
+}
+@media (max-width: 500px) {
+  .video-nos {
+    position: static;
+    bottom: 0;
   }
 }
 /*--------------------------------------------------------------
 # PRODUCTOS
 --------------------------------------------------------------*/
 .productos {
-  background: url("../img/web_fondo_productos.png") center center;
+  background: url("../img/prod-fondo.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -813,22 +824,22 @@ padding-top: 150px;
   height: auto;
 }
 .la-bestia {
-  background: url("../img/fondoprod/web_fondo_bestia.png") center center;
+  background: url("../img/fondoprod/bestia.jpg") center center;
   background-size: cover;
   position: relative;
 }
 .horno {
-  background: url("../img/fondoprod/web_fondo_horno copia.png") center center;
+  background: url("../img/fondoprod/hrono.jpg") center center;
   background-size: cover;
   position: relative;
 }
 .jaula {
-  background: url("../img/fondoprod/web_fondo_jaula.png") center center;
+  background: url("../img/fondoprod/jaula.jpg") center center;
   background-size: cover;
   position: relative;
 }
 .ovalada {
-  background: url("../img/prod/web_ovalada 3.png") center center;
+  background: url("../img/fondoprod/ovalada.jpg") center center;
   background-size: cover;
   position: relative;
 }
@@ -842,9 +853,21 @@ padding-top: 150px;
   background: rgba(0, 0, 0, 0.5);
 }
 .redonda {
-  background: url("../img/fondoprod/web_fondo_redonda.png") center center;
+  background: url("../img/fondoprod/red.jpg") center center;
   background-size: cover;
   position: relative;
+}
+.prod-title {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Gotham Bold";
+  border-bottom: solid #DA6900 3.5px;
+  display: inline-block;
 }
 @media (max-width: 948px) {
   .container-detalle-prod {
@@ -869,7 +892,7 @@ padding-top: 150px;
 .banner-redes {
   width: 100%;
   height: 400px;
-  background: url("../img/web_banner_fotos.png") top center;
+  background: url("../img/banner-fotos.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
